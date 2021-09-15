@@ -62,8 +62,7 @@ public class Enigma {
         System.out.println("Encoding with Number Cipher...");
         //input a string converted to upper case
         System.out.print("Input a string: ");
-        String inputString = input.nextLine();
-        inputString = inputString.toUpperCase();
+        String inputString = input.nextLine().toUpperCase();
 
         //convert the input string to a list of numbers
         int[] intArray = stringToNumbers(inputString);
@@ -110,7 +109,7 @@ public class Enigma {
     public static void decodeCaesarCipher() {
         System.out.println("Decoding with Caesar Cipher...");
         String outputString = commonCaesarCipher(-1);
-        //output encoded string
+        //output decoded string
         System.out.println("The original text was: " + outputString);
     }
 
@@ -150,7 +149,7 @@ public class Enigma {
     public static void decodeVigenereCipher() {
         System.out.println("Decoding with Vigenere Cipher...");
         String outputString = commonVigenereCipher(-1);
-        //output encoded string
+        //output decoded string
         System.out.println("The original text was: " + outputString);
     }
 
