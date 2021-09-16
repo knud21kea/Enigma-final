@@ -18,10 +18,10 @@ public class Enigma {
         System.out.println("The program quits on invalid option entry.");
 
         /*Encode/decode? Number/Caesar/Vigenere?
-        optionMainMenu stores choices as bits:
-        bit 0 for encode/decode
-        bit 1 for Caesar ciphers instead of Number
-        bit 2 for Vigenere ciphers*/
+         optionMainMenu stores choices as bits:
+         bit 0 for encode/decode
+         bit 1 for Caesar ciphers instead of Number
+         bit 2 for Vigenere ciphers*/
 
         int optionMainMenu;
         do {
